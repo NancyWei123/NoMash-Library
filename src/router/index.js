@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import LoginView from '../views/LoginView.vue'
 import AccessDeniedView from '../views/AccessDeniedView.vue'
+import AddBookView from '../views/AddBookView.vue'
 import { isAuthenticated } from '../auth'
 const routes = [
   {
@@ -25,6 +26,11 @@ const routes = [
     path: '/access-denied',
     name: 'access-denied',
     component: AccessDeniedView
+  },
+  {
+    path: '/addbook',
+    name: 'addbook',
+    component: AddBookView
   }
 ]
 
